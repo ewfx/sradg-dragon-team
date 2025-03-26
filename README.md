@@ -43,14 +43,14 @@ Describe the major technical or non-technical challenges your team encountered.
    cd /code/src/FastAPIProject
    
    # for fontend system
-   cd /code/src/FastAPIProject
+   cd /code/src/fontend
    ```
 2. Install dependencies  
    ```sh
-    # for backend system
+   # for fontend system
    npm install
 
-   # for fontend system
+   # for backend system
    pip install -r requirements.txt (for Python)
    ```
 3. Run the project  

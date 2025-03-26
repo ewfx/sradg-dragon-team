@@ -1,0 +1,30 @@
+# Test your FastAPI endpoints
+
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/hello/User
+Accept: application/json
+
+###
+POST http://127.0.0.1:8000/api/predict
+Content-Type: application/json
+
+{
+
+
+    "file_path":"data/catalyst/reduced_test_anomaly_testcases_catalyst_30.csv",
+    "key_columns": ["TRADEID"],
+    "criteria_columns": ["INVENTORY","CUSIP","TRADE_DATE","SETTLE_DATE","BUY_SELL","PRICE"],
+    "historic_columns": ["INVENTORY","CUSIP"],
+    "date_columns": ["RECONDATE"],
+    "usecase_id": "CATALYST"
+
+
+}
+
+
+
+###

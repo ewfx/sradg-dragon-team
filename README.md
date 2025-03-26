@@ -39,20 +39,32 @@ Describe the major technical or non-technical challenges your team encountered.
 1. Clone the repository  
    ```sh
    git clone https://github.com/your-repo.git
+   # for backend system
+   cd /code/src/FastAPIProject
+   
+   # for fontend system
+   cd /code/src/FastAPIProject
    ```
 2. Install dependencies  
    ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
+    # for backend system
+   npm install
+
+   # for fontend system
+   pip install -r requirements.txt (for Python)
    ```
 3. Run the project  
    ```sh
-   npm start  # or python app.py
+   #for backend system
+   python3 main.py
+   
+   #for fontend system 
+   npm run start  # or python app.py
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
+- 🔹 Frontend: React 
+- 🔹 Backend: FastAPI 
 - 🔹 Other: OpenAI API / Twilio / Stripe
 
 ## 👥 Team

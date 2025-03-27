@@ -36,23 +36,45 @@ Briefly outline the technologies, frameworks, and tools used in development.
 Describe the major technical or non-technical challenges your team encountered.
 
 ## 🏃 How to Run
+
 1. Clone the repository  
    ```sh
    git clone https://github.com/your-repo.git
+   # for backend system
+   cd /code/src/FastAPIProject
+   
+   #create a .env file with
+   API_KEY= ;api.currencyfreaks.com api key
+   CUDA_VISIBLE_DEVICES=
+   GEMINI_API_KEY=
+   JIRA_API_KEY=
+   JIRA_SERVER=
+   JIRA_USER=
+   JIRA_PROJECT= ;board id
+   
+   # for fontend system
+   cd /code/src/fontend
    ```
 2. Install dependencies  
    ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
+   # for fontend system
+   npm install
+
+   # for backend system
+   pip install -r requirements.txt (for Python)
    ```
 3. Run the project  
    ```sh
-   npm start  # or python app.py
+   #for backend system
+   python3 main.py
+   
+   #for fontend system 
+   npm run start  # or python app.py
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
+- 🔹 Frontend: React 
+- 🔹 Backend: FastAPI 
 - 🔹 Other: OpenAI API / Twilio / Stripe
 
 ## 👥 Team
